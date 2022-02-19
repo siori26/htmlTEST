@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiHo</title>
+        <link rel="icon" type="image/png" href="miho.png.jpg" sizes="152x152">
+    <link rel="stylesheet" href="./css/mypage.css" />
+
+  </head>
+
+    <style>
+    .wrap {
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+        .screen_out {
+
+    width: 2000px;
+    height: 270px;
+        background-position: top;
+        font-style: italic;
+        font-weight: bold;
+
+    </style>
+  <body>
+  <div class="jumbotron jumbotron-fluid wrap screen_out">
+  <div class="container " >
+    <h1 class="display-4">Welcom to my page!</h1>
+    <p class="lead">This site is RUMURU TEMPEST's home page</p>
+  </div>
+</div>
+
+
+    <div class="continue-watching">
+      <p class="continue-watching__header">이어보기</p>
+      <ul class="continue-watching__imges">
+        <li>
+          <div class="continue-watching__card">
+            <img src="./img/mypage-continueWatch-01.jpg" />
+            <span class="continue-watching__title">센과 치히로의 행방불명</span>
+          </div>
+        </li>
+        <li>
+          <div class="continue-watching__card">
+            <img src="./img/mypage-continueWatch-02.jpg" />
+            <span class="continue-watching__title">마루 밑 아리에티</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="wishlist">
+      <p class="wishlist__header">내가 찜한 목록</p>
+      <div class="wishlist-container">
+        <div class="wishlist-item">
+          <div>
+            <img src="./img/mypage-wishlist-01.jpg" class="wishlist__img" />
+          </div>
+          <div class="wishlist-info">
+            <span class="wishlist__title">도깨비</span>
+            <span class="wishlist__subtitle">김고은, 공유 출연</span>
+          </div>
+          <div class="wishlist-play-btn">
+            <span class="material-icons"> play_arrow </span>
+          </div>
+        </div>
+
+        <div class="wishlist-item">
+          <div>
+            <img src="./img/mypage-wishlist-02.jpg" class="wishlist__img" />
+          </div>
+          <div class="wishlist-info">
+            <span class="wishlist__title">오만과 편견</span>
+            <span class="wishlist__subtitle">황상준 출연</span>
+          </div>
+          <div class="wishlist-play-btn">
+            <span class="material-icons"> play_arrow </span>
+          </div>
+        </div>
+
+        <div class="wishlist-item">
+          <div>
+            <img src="./img/mypage-wishlist-03.jpg" class="wishlist__img" />
+          </div>
+          <div class="wishlist-info">
+            <span class="wishlist__title">편의점 샛별이</span>
+            <span class="wishlist__subtitle">김유정, 지상욱 출연</span>
+          </div>
+          <div class="wishlist-play-btn">
+            <span class="material-icons"> play_arrow </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navigation-bar">
+      <a href="find.html">
+        <span class="material-icons-outlined"> search </span>
+      </a>
+      <a href="mypage.html">
+        <span class="material-icons"> person </span>
+      </a>
+    </div>
+  </body>
+</html>
