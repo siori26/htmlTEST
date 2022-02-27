@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4596943-3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-4596943-3');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta id="metaDs" name="description" content="">
+<meta id="metaKw" name="keywords" content="">
+<meta id="metaOgSn" property="og:site_name" content="">
+<meta id="metaOgDs" property="og:description" content="">
+<meta name="author" content="TOKYO MX">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://s.mxtv.jp/mcas_banner/mcas_l_tensura.png">
+<meta property="fb:admins" content="100002496065591">
+<meta property="fb:app_id" content="206814972711404">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@TOKYOMX">
+<meta name="twitter:title" content="転生したらスライムだった件 第2期 第2部｜TOKYO MX">
+<meta name="twitter:creator" content="@TOKYOMX">
+<meta name="twitter:image" content="https://s.mxtv.jp/mcas_banner/mcas_l_tensura.png">
+<meta name="twitter:url" content="https://s.mxtv.jp/anime/tensura">
+<script src="/js/jquery201707.js"></script>
+<script src="/common/js/change_izonmoji.js"></script>
+<script src="/common/js/ua.js"></script>
+<script src="js/setting.js"></script>
+<script src="/common/common.js"></script>
+<script src="/common/js/moment.js"></script>
+<script src="/common/js/jquery.csv.min.js"></script>
+<script src="/template6/js/function.js"></script>
+<script src="/template6/js/contents_loadU.js"></script>
+<script src="/template6/js/scroolltopcontrol.js"></script>
+
+<link href="/template6/css/reset.css" rel="stylesheet">
+<link id="cssCommon" href="/template6/css/common_pc.css" rel="stylesheet">
+<link id="cssDefault" href="/template6/css/pc/default.css" rel="stylesheet">
+<link id="cssEme" href="/css/rp_text01_pc.css" rel="stylesheet">
+<link id="cssEmePopup" href="/common/js/eme_layerBoard.css" rel="stylesheet">
+<script src="/common/js/eme.js"></script>
+<script src="/common/js/cookie.js"></script>
+<script src="/common/js/layerBoard.js"></script>
+<script>
+if(agent === "SP"){
+	document.getElementById("cssCommon").href = "/template6/css/common_sp.css";
+	document.getElementById("cssDefault").href = "/template6/css/sp/default.css";
+	document.write('<link rel="stylesheet" href="/template6/css/modal_sp.css">');
+}
+</script>
+<script src="/common/js/tag_ga.js"></script>
+</head>
+
+<body id="index">
+	<header id="header"></header>
+	<div id="loader"><div class="loader"></div></div><!--loader-->
+	<div id="Emergency"></div><!-- #Emergency -->
+	<div class="panlist"><p class="hack">
+		<a href="/">TOKYO MX</a><span>&nbsp;&gt;&nbsp;</span><a href="../">アニメ</a><span>&nbsp;&gt;&nbsp;</span><strong class="bangumiName"></strong></p>
+	</div>	
+	<div class="all toppage">
+		<div class="contents hack">
+			<div class="sub_area">
+				<h1 id="logo" class="logo hack"></h1>
+				<div id="kvAreaSp" class="key_area_in hack onlySp"></div><!-- onlySp -->
+				<h2 id="title" class="title"></h2>
+				<h3 id="oaDate" class="time"></h3>
+				<p class="startend_message"></p>
+				<div class="sns_box"><div id="sns_button"></div></div>
+				<div id="mcP" class="b_mcas"></div>
+				<div id="mcS" class="b_mcas onlySp"></div>
+				<div class="ep_s">
+					<div class="bar_s"><img src="/template6/img/pc/normal/bar_s_ep.png" alt="放送情報" style="user-select: none;"></div>
+					<ul>
+						<li id="menuEpi"></li>
+					</ul>
+				</div><!--ep_s-->
+				<div class="anime_news onlyPc">
+					<div class="bar_s"><img src="/template6/img/pc/normal/bar_s_anime_news.png" alt="アニメ更新情報" style="user-select: none;"></div>
+					<ul></ul>
+					<div class="anime_news_more"><a href="news.html" class="roll"><img src="/template6/img/pc/normal/more_news.png" alt="もっと見る" style="user-select: none;"></a></div>
+				</div><!--anime_news-->
+				<div id="menuPc" class="menu onlyPc"></div><!--menu-->
+			</div><!-- sub_area -->
+
+			<div class="main_area">
+				<h4 id="kv" class="key onlyPc"></h4>
+				<p id="cRP" class="copy onlyPc"></p>
+				<div id="animeNews" class="anime_news onlySp">
+					<div class="bar_s">アニメ更新情報</div>
+					<ul></ul>
+					<div class="anime_news_more"><a href="news.html" class="roll">もっと見る</a></div>
+				</div><!--anime_news-->
+
+				<div class="main_contents">	
+					<a id="page_ep" name="page_ep"></a>
+					<div id="pageEpi" class="box box_ep">
+						<div class="bar_s"><h5><span>放送情報</span></h5></div>
+						<div class="box_s">
+							<div id="pageEpiIn"></div>
+							<p class="ep_more"><a href="episode.html">もっと見る</a></p>
+							<div class="box_close onlySp"><span>×閉じる</span></div>
+						</div><!--box_s-->
+					</div><!--box-->
+
+					<a id="page_story" name="page_story"></a>
+					<div class="box box_story">
+						<div class="bar_s"><h5><span>ストーリー</span></h5></div>
+						<div class="box_s">
+							<div id="pageStoryIn"></div>
+							<div class="box_close onlySp"><span>×閉じる</span></div>
+						</div><!--box_s-->
+					</div><!--box-->
+
+					<a id="page_staff" name="page_staff"></a>
+					<div class="box box_staff">
+						<div class="bar_s"><h5><span>スタッフ・キャスト</span></h5></div>
+						<div class="box_s hack">
+							<div id="pageStaffIn"></div>
+							<div class="box_close onlySp"><span>×閉じる</span></div>
+						</div><!--box_s-->
+					</div><!--box-->
+				</div><!--main_contents-->
+
+			</div><!--main_area-->
+
+			<div id="menuSp" class="onlySp">
+				<div class="menu hack">
+					<div class="boxflex clearfix"></div>
+				</div><!--menu-->
+			</div><!-- menuSp -->
+
+			<div class="common_anime_area">
+				<div class="common_anime_area_in">
+					<div class="common_rec">
+						<div class="common_anime_title">オススメの番組</div>
+						<div id="recoBox" class="common_anime_box"></div>
+					</div><!--common_rec-->
+				</div><!--common_area_in-->
+				<div class="banner300250"></div>
+			</div>
+		</div><!--contents-->
+	</div><!--all-->
+	<div class="footer"><footer id="footer"></footer></div><!-- #footer -->
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=597025471"></script>
+</body>
+</html>
